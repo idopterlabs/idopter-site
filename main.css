@@ -22,7 +22,7 @@ time, mark, audio, video {
 body {
     line-height:1;
 	background:url("images/bg.jpg") top center no-repeat;
-	font-family: Tahoma, Geneva, sans-serif;
+	font-family: Tahoma, Arial, Verdana, Geneva, sans-serif;
 }
 h1 { 
 	background:url("images/idopterlabs.png") top center no-repeat;
@@ -33,8 +33,13 @@ h1 {
 h2 {
 	margin:0 auto;
 	color:#a7a7a7;
-	margin:5px 5% 0 65%;
-	font-size:26px;
+	margin:12px 5% 0 65%;
+	font-size:28px;
+	}
+h3 {
+	color:#959595;
+	margin:2px 0;
+	font-size:12px;
 	}
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
@@ -106,15 +111,21 @@ input, select {
 }
 
 #navbar{width:100%;height:60px;background-color:#363636;clear:both;position: absolute;bottom:0;}
-#navbar #go{background-color:#6ca622;width:60px;height:60px; margin:-50px 15% 0 85%; -webkit-border-top-left-radius: 4px;
+#navbar #go{background-color:#6ca622;width:50px; height:36px;font:bold 27px Tahoma, sans-serif; margin:-36px 15% 0 85%; -webkit-border-top-left-radius: 4px;
 -webkit-border-top-right-radius: 4px;
 -moz-border-radius-topleft: 4px;
 -moz-border-radius-topright: 4px;
 border-top-left-radius: 4px;
-border-top-right-radius: 4px;}
-
+border-top-right-radius: 4px;text-align:center; text-shadow: 1px 1px white, -1px -1px #55821c}
+#navbar #go a{color:#FFF;text-decoration:none; }
 
 #main{width:100%;padding:50px 0;background-color:#FFF;margin:700px 0 0 0; -moz-opacity: 0.65; opacity: 0.65;}
 #time{width:100%;height:350px; background-color:#363636;margin:200px 0 0 0;padding:80px 0 40px 0; text-align:center;color:#FFF; }
-#time .personas {min-height:200px; border:1px solid #000;display:inline-block;zoom:1;*display:inline;vertical-align:top;font-size:12px;line-height: 1.6; text-align:left;}
-#time .personas .box{width:182px;height:182px; background-color:#ffe808;margin:0 10px 0 0;}
+#time .personas {min-height:200px;display:inline-block;zoom:1;*display:inline;vertical-align:top;font-size:12px;line-height: 1.6; text-align:left;}
+#time .personas .box{width:182px;height:186px; background-color:#ffe808;margin:0 10px 0 0;padding:0 0 0 6px; }
+
+
+/*box*/ 
+.boxgrid{ width: 186px; height: 186px; float:left; background:#ffe808; border: solid 0px; overflow: hidden; position: relative; }
+.boxgrid img{ position: absolute; top: 0; left: 0; border: 0; }
+.boxgrid p{ padding: 0 10px; }
