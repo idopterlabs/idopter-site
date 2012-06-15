@@ -60,6 +60,9 @@ lect{vertical-align:middle;}
 #time .tt{width:974px;margin:0 auto; }
 #time .personas{min-height:200px;display:inline-block;zoom:1;*display:inline;vertical-align:top;font-size:12px;line-height:1.6;text-align:left;}
 #time .personas .box{width:180px;height:180px;background-color:#ffe808;margin:0 6px 0 0;padding:0 0 0 6px;}
+.ct { margin:0 0 0 400px; }
+.ct a{ color:#4b4b4b; text-decoration:none;}
+.ct a:hover{text-decoration:underline;}
 
 /*box*/ 
 .boxgrid{width:180px;height:180px;float:left;background:#ffe808;color:#000;border:0px;overflow:hidden;position:relative;}
