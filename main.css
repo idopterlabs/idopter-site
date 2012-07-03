@@ -68,3 +68,13 @@ lect{vertical-align:middle;}
 .boxgrid{width:180px;height:180px;float:left;background:#ffe808;color:#000;border:0px;overflow:hidden;position:relative;}
 .boxgrid img{position:absolute;top:0;left:0;border:0;}
 .boxgrid p{padding:0 10px;}
+
+/*redes sociais*/
+#topbar{
+position:absolute;
+padding: 6px 2px;
+background-color: none;
+width: 620px;
+visibility: hidden;
+z-index: 100;
+}
