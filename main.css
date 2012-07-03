@@ -74,7 +74,8 @@ lect{vertical-align:middle;}
 position:absolute;
 padding: 6px 2px;
 background-color: none;
-width: 620px;
+width: 90%;
 visibility: hidden;
 z-index: 100;
+text-align:right;
 }
