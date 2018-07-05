@@ -1,270 +1,439 @@
-<!DOCTYPE HTML>
-<html lang="pt-br">
- <head>
- 	<meta charset="UTF-8">
- 	<link rel="stylesheet" type="text/css" href="main.css">
- 	<link rel="stylesheet" type="text/css" href="milligram.min.css">
- 	<title>idopter labs.</title>
-	<meta content="pt-br" name="content-language">
-	<meta content="© 2012 Idopter Labs." name="copyright">
-	<meta content="no" name="imagetoolbar">
-	<meta content="1 day" name="revisit-after">
-	<meta content="general" name="rating">
-	<meta content="all" name="robots">
-	<meta content="Idopter Labs., staff@idopter.com" name="author">
-	<meta content="O Idopter Labs. promove colaboração e criatividade para desenvolver ideias e parcerias, gerando produtos e serviços de impacto na sociedade. O ambiente colaborativo soma competências e conhecimentos distintos para geração de produtos e serviços melhores e por isso o Idopter Labs. incentiva o co-working dando suporte a novas ideias, projetos e empreendedores." name="description">
-	<meta content="coletivo, criatividade, ideias, colaboração, entusiasmo, equipe criativa, coworking, co-working, original, crowd, crowd sourcing, idopter, lancelote, lancelote.com" name="keywords">
-	<meta content="all" name="robots">
-	<meta content="Idopter Labs." name="DC.title">
-	<meta content="2017-02-01" name="DC.date.created">
-	<meta content="2017-02-01" name="DC.date.modified">
-	<meta content="http://idopterlabs.com.br" name="DC.Identifier">
-	<meta content="http://idopterlabs.com.br" property="og:url">
-	<meta content="idopterlabs.com.br" property="og:site_name">
-	<meta content="website" property="og:type">
-	<meta content="Idopter Labs." property="og:title">
-	<meta content="O Idopter Labs. promove colaboração e criatividade para desenvolver ideias e parcerias, gerando produtos e serviços de impacto na sociedade. O ambiente colaborativo soma competências e conhecimentos distintos para geração de produtos e serviços melhores e por isso o Idopter Labs. incentiva o co-working dando suporte a novas ideias, projetos e empreendedores." property="og:description">
-	<meta content="http://idopterlabs.com.br/images/idopterlabs.png" property="og:image">
-	<!-- FACEIMAGE -->
-	<link rel="image_src" href="http://www.idopterlabs.com.br/images/facebookimage.jpg" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>idopter labs.</title>
+    <meta name="description" content="Your Description Here">
+    <meta name="keywords" content="bootstrap themes, portfolio, responsive theme">
+    <meta name="author" content="ThemeForces.Com">
 
-	<!-- NAVEGAÇÃO -->
-    <script src="js/jquery_002.js" type="text/javascript"></script>
-    <script src="js/bar.js" type="text/javascript"></script>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script type="text/javascript">
-            $(function(){
-                $("a[href^=#]").smoothScroll(300,10,10,10)
-            })
-        </script>
-	<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
-    <!-- NAVEGAÇÃO -->
-    <!-- CUFON -->
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<script src="js/InaiMathi_400.font.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			Cufon.replace('h2');
-			Cufon.replace('h4');
-			Cufon.replace('h5', {
-				hover: true
-							});
-			Cufon.replace('h6');
-		</script>
-	<!-- CUFON -->
-    <!-- Box slider -->
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$('.boxgrid.slideright').hover(function(){
-					$(".cover", this).stop().animate({left:'325px'},{queue:false,duration:300});
-				}, function() {
-					$(".cover", this).stop().animate({left:'0px'},{queue:false,duration:300});
-				});
-			});
-		</script>
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-		<script type="text/javascript">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-32695688-1']);
-			_gaq.push(['_trackPageview']);
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-		</script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600,700,100,800,900,400,200,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
 
- </head>
- 	<body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="tf-home">
+        <div class="overlay">
+            <div id="sticky-anchor"></div>
+            <nav id="tf-menu" class="navbar navbar-default">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand logo" href="index.html"><span class="fa fa-leaf"></span>Idopter Labs</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#tf-home">Home</a></li>
+                        <li><a href="#tf-service">Serviços</a></li>
+                        <li><a href="#tf-portfolio">Portfolio</a></li>
+                        <li><a href="#tf-about">Equipe</a></li>
+                        <li><a href="#tf-contact">Contato</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <div class="container">
+                <div class="content">
+                    <h1>I create webistes</h1>
+                    <h3>Trabalhamos com ideias</h3>
+                    <br>
+                    <a href="#tf-portfolio" class="btn btn-primary my-btn2">parcerias</a>
+                    <a href="#tf-contact" class="btn btn-primary my-btn">Quem somos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-service">
+        <div class="container">
+            <div class="col-md-4">
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-lightbulb-o" style="color: blue;"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading" style="color: blue;">Brand & Graphics Design</h4>
+                    <p>Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-code" style="color: red;"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading" style="color: red;">Web Designer & Developer</h4>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="media">
+                  <div class="media-left media-middle">
+                    <i class="fa fa-laptop" style="color: orange;"></i>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading" style="color: orange;">Business Consultant</h4>
+                    <p>Metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="tf-about">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-6">
+                        <h3>Trabalhamos com ideias</h3>
+                        <br>
+
+                        <p>O Idopter Labs. promove colaboração e criatividade para desenvolver ideias e parcerias, gerando produtos e serviços de impacto na sociedade. O ambiente colaborativo soma competências e conhecimentos distintos para geração de produtos e serviços melhores e por isso o Idopter Labs. incentiva o co-working dando suporte a novas ideias, projetos e empreendedores.</p>
+				                <p><b>Somos contra o abandono das boas ideias</b>, então se você tem uma boa ideia e acredita que ela fará a diferença para muita gente nos procure!</p>
+
+                        <br>
+                        <a href="#tf-why-me" class="btn btn-primary my-btn dark">Por que nos contrata?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tf-portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h3>Parceiros e Clientes</h3>
+                <hr>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.prodigasistemas.com.br" target="_blank">
+                      <img src="img/prodigasistemas.png" class="img-responsive">
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://www.bonsaiux.com.br" target="_blank">
+                    <img src="img/bonsaiux.png" class="img-responsive">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="https://www.cargo42.com" target="_blank">
+                    <img src="img/cargo42.png" class="img-responsive">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="https://www.globalmentoringgroup.com" target="_blank">
+                    <img src="img/globalmentoring.png" class="img-responsive">
+                  </a>
+                </div>
+            </div>
+
+            <div class="row toppadding">
+                <div class="col-md-3">
+                  <a href="http://www.affa.com.br" target="_blank">
+                    <img src="img/affa.png" class="img-responsive">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://www.tecnowise.com.br" target="_blank">
+                    <img src="img/tecnowise.png" class="img-responsive">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://www.rydagro.com.br" target="_blank">
+                    <img src="img/rydagro.png" class="img-responsive">
+                  </a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://www.boxtune.com.br" target="_blank">
+                    <img src="img/boxtune.png" class="img-responsive">
+                  </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="tf-why-me">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Time pequeno, grandes resultados</h3>
+                        <br>
+                        <ul class="list-inline why-me">
+                            <li>
+                                <h4>UX Design Web Design</h4>
+                                <p>Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            </li>
+                            <li>
+                                <h4>Desenvolvimento Web</h4>
+                                <p>Donec lacinia congue felis in faucibus. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            </li>
+                            <li>
+                                <h4>Aplicativos Mobile</h4>
+                                <p>Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+                            </li>
+                        </ul>
+                        <a href="#tf-contact" class="btn btn-primary my-btn dark">Nosso time</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="tf-contact">
+        <div class="container">
+            <div class="section-title">
+                <h3>Contato</h3>
+                <p>Trabalhamos para criar as melhores soluções para a sociedade. Entre em contato conosco.</p>
+                <hr>
+            </div>
+
+            <div class="space"></div>
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form id="contact">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome">
+                      </div>
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <textarea class="form-control" rows="4" placeholder="Mansagem"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary my-btn dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
 
+    <div id="tf-contact" class="container content">
+        <div class="heading">
+            <h3>Colaboradores</h3>
+        </div><!-- //end heading -->
 
-		<h1></h1>
+    	<div class="row">
+            <div class="col-sm-3">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-responsive" src="img/pigor.jpg" width="180">
+                    </div>
+                    <div class="team-desc">
+                      <h3>Paulo Igor</h3>
+                      Tecnologia &<br /> Operações
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-responsive" src="img/mateus.jpg" width="180">
+                    </div>
+                    <div class="team-desc">
+                      <h3>Mateus Linhares</h3>
+                      Tecnologia &<br /> Desenvolvimento
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-responsive" src="img/jack.jpg" width="180">
+                    </div>
+                    <div class="team-desc">
+                      <h3>Ricardo Casseb</h3>
+                      Tecnologia &<br /> Desenvolvimento
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-responsive" src="img/fernando.jpg" width="180">
+                    </div>
+                    <div class="team-desc">
+                      <h3>Fernando Bellentani </br>(Bonsai UX)</h3>
+                      Creative & Designer Web
+                    </div>
+                </div>
+            </div>
+        </div><!-- //end row -->
+    </div>
 
 
-		<div id="navbar">
-			<div id="go"><a href="#content">+</a></div>
-			<h2>Trabalhamos com ideias</h2>
-		</div>
+    <!-- <nav id="tf-footer">
+        <div class="container">
+             <div class="pull-left">
+                <p>2015 © Awesomess. All Rights Reserved. Designed and Coded by <a href="https://dribbble.com/jennpereira">Jenn</a> for <a href="https://themeforces.com">ThemeForces.Com</a></p>
+            </div>
+            <div class="pull-right">
+                <ul class="social-media list-inline">
+                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                    <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                    <li><a href="#"><span class="fa fa-behance"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
 
 
-		<div id="content">
-			<div id="main">
-				<p>O Idopter Labs. promove colaboração e criatividade para desenvolver ideias e parcerias, gerando produtos e serviços de impacto na sociedade. O ambiente colaborativo soma competências e conhecimentos distintos para geração de produtos e serviços melhores e por isso o Idopter Labs. incentiva o co-working dando suporte a novas ideias, projetos e empreendedores.</p>
-				<p><b>Somos contra o abandono das boas ideias</b>, então se você tem uma boa ideia e acredita que ela fará a diferença para muita gente nos procure!</p>
+<footer class="footer footer-big footer-color-black" data-color="black">
+  <div class="container">
+      <div class="row">
+        <div class="col-md-1 col-sm-3">
+          <div class="info">
+            <h5 class="title">Site</h5>
+            <nav>
+              <ul>
+                <a href="#tf-home">Home</a>
+                <a href="#tf-service">Serviços</a>
+                <a href="#tf-portfolio">Portfolio</a>
+                <a href="#tf-about">Equipe</a>
+                <a href="#tf-contact">Contato</a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-3">
+          <div class="info">
+            <h5 class="title">Localização</h5>
+             <nav>
+              <ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.519010362235!2d-48.500738685693825!3d-1.4622756362547982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48e609cdec07b%3A0x54e58fcf3fe01335!2sHUB+728+Coworking!5e0!3m2!1spt-BR!2sbr!4v1530721715396" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1 col-sm-3">
+          <div class="info">
+            <nav>
+              <ul>
+                <li>
+                  <a href="http://w3.globalmentoringgroup.com/certificates/online/">
+                    <img src="img/idopterlabs-gsuite.png" alt="">
+                    <hr class="hr-small">
+                  </a>
+                </li>
+                <li>
+                  <small>
+                    Somos contra o abondono de boas ideias.
+                  </small>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-2 col-md-offset-1 col-sm-3">
+          <div class="info">
+            <h5 class="title">Siga</h5>
+            <nav>
+              <ul>
+                <li>
+                  <a class="btn btn-social btn-facebook btn-simple">
+                    <i class="fa fa-phone"></i> +55 (091) 2222-2222
+                  </a>
+                </li>
+                <li>
+                  <a class="btn btn-social btn-facebook btn-simple">
+                    <i class="fa fa-envelope-o"></i> idopterlabs@mail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/idopter" class="btn btn-social btn-twitter btn-simple">
+                    <i class="fa fa-twitter"></i> Twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.medium.com/idopterlabs" class="btn btn-social btn-reddit btn-simple">
+                    <i class="fa fa-medium"></i> Medium
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <hr>
+    <div class="copyright">
+      © Idopter Labs 2017. All rights reserved.
+    </div>
+  </div>
+</footer>
 
-				<h5><a href="#footer">Quem Somos</a></h5>
 
-				<!-- <h6>Projetos</h6>
-				<a href="http://www.idopter.com" target="_blank" /><img src="images/idopter.png" title="idopter" /></a>
-				<a href="http://www.lancelote.com" target="_blank" /><img src="images/lancelote.png" title="Lancelote" /></a> -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
-				<h2>Contato</h2>
-				<span class="ct"><a href="mailto:contato@idopterlabs.com.br">contato@idopterlabs.com.br</a></span>
-			</div>
+    <!-- Javascripts
+    ================================================== -->
+    <script type="text/javascript" src="js/main.js"></script>
 
-			<div id="projects">
-				<div class="title">
-					<h4>Clientes / Parceiros</h4>
-				</div>
-
-				<div class="project-section">
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/prodiga.png" width="180" height="180" />
-									<h3>Pródiga Sistemas</h3>
-									<a href="https://www.prodigasistemas.com.br">https://prodigasistemas.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/bonsaiux.png" width="180" height="180" />
-									<h3>Bonsai UX</h3>
-									<a href="http://www.bonsaiux.com.br">http://www.bonsaiux.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/cargo-42-logo-2.png" width="180" height="180" />
-									<h3>Cargo42</h3>
-									<a href="https://www.cargo42.com">https://www.cargo42.com</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/globalmentoring.png" width="180"/>
-									<h3>Global Mentoring Group</h3>
-									<a href="https://www.globalmentoringgroup.com">https://www.globalmentoringgroup.com</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/affa.png" width="180"/>
-									<h3>AFFA Engenharia & Arquitetura</h3>
-									<a href="http://www.affa.com.br">http://www.affa.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/tecnowise.png" width="180"/>
-									<h3>Tecnowise</h3>
-									<a href="http://www.tecnowise.com.br">http://www.tecnowise.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/rydagro.png" width="180"/>
-									<h3>RYD Agro</h3>
-									<a href="http://www.rydagro.com.br">http://www.rydagro.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="project">
-						<div class="project-box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/boxtune.png" width="180"/>
-									<h3>Boxtune</h3>
-									<a href="http://www.boxtune.com.br">http://www.boxtune.com.br</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="time">
-				<div class="tt">
-					<h4>Colaboradores</h4>
-				</div>
-
-				<div class="time-section">
-					<div class="personas">
-						<div class="box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/mateus.jpg" width="180"/>
-									<h3>Mateus Linhares</h3>
-									Tecnologia &<br /> Desenvolvimento
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="personas">
-						<div class="box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/pigor.jpg" width="180"/>
-									<h3>Paulo Igor</h3>
-									Tecnologia &<br /> Operações
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="personas">
-						<div class="box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/jack.jpg" width="180" />
-									<h3>Ricardo Casseb</h3>
-			            Tecnologia &<br /> Desenvolvimento
-			          </div>
-		          </div>
-						</div>
-					</div>
-
-					<div class="personas">
-						<div class="box">
-							<div class="boxgrid slideright">
-								<div class="box-text">
-									<img class="cover" src="images/fernando.jpg"/>
-									<h3>Fernando Bellentani </br>(Bonsai UX)</h3>
-			            Creative & Designer Web
-			          </div>
-		          </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
- 		<div id="footer"></div>
- 	</body>
- </html>
+  </body>
+</html>
