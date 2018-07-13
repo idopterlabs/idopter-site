@@ -599,3 +599,8 @@ nav#tf-footer {
 .footer-big .numbers h4 {
   margin: 0 0 10px 0;
 }
+
+.team-photo{
+	width: 300px;
+	height: 300px;
+}
