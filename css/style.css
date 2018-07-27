@@ -56,9 +56,10 @@ a:focus{
 
 /* Home Style */
 #tf-home{
-	background: url(../img/bg.jpg);
-	background-size: cover;
-	background-position: center;
+  background: url(../img/bg.jpg);
+	background-size: auto;
+  background-position: center;
+  background-position-y: inherit;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #cfcfcf;
@@ -125,6 +126,10 @@ a:focus{
 #tf-service{
 	padding: 7% 0;
 }
+
+.media .fa {
+  min-width: 63px;
+} 
 
 .media-left.media-middle i {
 	padding: 20px 30px 20px 0;
@@ -299,10 +304,6 @@ nav#tf-footer {
 	background: #222222;
 	padding: 3% 0 2% 0;
 	color: #f1f1f1;
-}
-
-.content {
-    padding-top: 30px;
 }
 
 /* Heading */
