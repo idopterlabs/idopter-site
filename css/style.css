@@ -124,12 +124,16 @@ a:focus{
 }
 
 #tf-service{
-	padding: 7% 0;
+  padding: 7% 0;
+}
+
+#tf-service .section-title {
+  text-align: center;
 }
 
 .media .fa {
   min-width: 63px;
-} 
+}
 
 .media-left.media-middle i {
 	padding: 20px 30px 20px 0;
@@ -609,4 +613,34 @@ nav#tf-footer {
 .logo-navbar{
 	margin-top: -73px;
 	height: 120px;
+}
+
+#tf-depoimentos {
+  padding: 5%  0 8% 0;
+	text-align: center;
+  background-color: #e2e2e2
+}
+
+.client-testimonial-block {
+  width: 30%;
+  text-align: justify;
+  text-justify: inter-word;
+  float: right;
+  margin-right: 3%;
+}
+
+.client-testimonial-block p {
+}
+
+@media (max-width: 600px) {
+  .client-testimonial-block {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+  }
+}
+
+.client-name {
+  display: block;
 }
