@@ -78,7 +78,7 @@ function main() {
       button.html("Aguarde...");
 
       $.ajax({
-        url: "https://api.idopterlabs.com.br/mailme/notify/now",
+        url: "http://api.idopterlabs.com.br/mailme/notify/now",
         type: "POST",
         data: mailData,
         contentType: "application/x-www-form-urlencoded"
