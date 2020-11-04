@@ -1,0 +1,59 @@
+{
+  "menu": {
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "about": "Who We Are",
+    "start-a-project": "Start a project",
+    "team": "Team",
+    "contact-us": "Contact Us",
+    "location": "Location"
+  },
+  "hero": {
+    "lets-build": "Let's build something amazing together",
+    "about": "Who we are",
+    "idea": "Let us know your idea"
+  },
+  "services": {
+    "title": "Services",
+    "dev-product": "Product Development",
+    "dev-product-description": "We will help you turn your product idea into a successful business. You spend <b>less money</b> writing exactly what you  software.",
+    "rescue": "Rescue Projects",
+    "rescue-description": "If your project is running late or you are having issues with the current development process, we can help you get back on track.",
+    "support": "Backlog building",
+    "support-description": "Understanding what needs to be built and which order to follow is essential for working efficiently. We provide a backlog building service to help you get ready for development."
+  },
+  "middle": {
+    "title": "We work with ideas",
+    "desc-1": "Our company incentivizes collaboration and creativity to develop ideas and partnerships creating amazing products.",
+    "desc-2": "We are against leaving good ideas behind",
+    "desc-3": ", so let us help bring your idea to life!",
+    "why-hire-us": "Why work with us ?"
+  },
+  "clients": {
+    "title": "Partners and Clients"
+  },
+  "team": {
+    "title": "Small team, big results",
+    "dev-product": "Product Development",
+    "dev-product-description": "We have many years of experience developing digital products in collaboration with clients and partners.",
+    "rescue": "Rescue Projects",
+    "rescue-description": "A lot has been learned in how projects can go wrong. We use our collective experience from these situations to help teams struggling with their process get back on track.",
+    "support": "Support",
+    "support-description": "We can be there for you as you deploy your project and level up your development team to continue evolving your solution.",
+    "our-team": "Our Team",
+    "founders": "Founders",
+    "how-can-we-help-you": "How can we help you?",
+    "we-will-help": "We partner with our clients to create the best solution to fit their needs. We would love to hear about your idea!"
+  },
+  "form": {
+    "project-name": "What is the name of your business or project?",
+    "your-name": "What is your name?",
+    "your-email": "What is your e-mail?",
+    "your-phone": "What is your phone number?",
+    "how-can-we-help": "How can we help you?",
+    "your-budget": "What is your budget?",
+    "how-did-you-find-us": "How did you find us?",
+    "send": "Send",
+    "footer-message": "We are against leaving good ideas behind."
+  }
+}

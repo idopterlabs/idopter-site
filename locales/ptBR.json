@@ -1,0 +1,59 @@
+{
+  "menu": {
+    "services": "Serviços",
+    "testimonials": "Depoimentos",
+    "about": "Quem Somos",
+    "start-a-project": "Inicie um projeto",
+    "team": "Time",
+    "contact-us": "Contato",
+    "location": "Localização"
+  },
+  "hero": {
+    "lets-build": "Vamos construir algo incrível juntos",
+    "about": "Quem somos",
+    "idea": "Conte-nos sua ideia"
+  },
+  "services": {
+    "title": "Serviços",
+    "dev-product": "Desenvolvimento de Produtos",
+    "dev-product-description": "Projetamos e desenvolvemos soluções usando técnicas e tecnologias apropriadas para cada situação. Estudamos cuidadosamente cada problema buscando sempre a melhor maneira de alcançar os resultados esperados.",
+    "rescue": "Resgate de Projetos",
+    "rescue-description": "Seu projeto está atrasado, o resultado não foi o esperado e agora precisa voltar para a prancheta, sua demanda aumentou antes de você conseguir montar e preparar o seu time. Então você pode contar com a gente para resgatá-lo e tirá-lo dessa situação.",
+    "support": "Suporte Especializado",
+    "support-description": "Precisa de ajuda na formação, capacitação ou atualização do seu time, pode contar com a gente. Todos os projetos nos trouxeram muito aprendizado e uma diversidade grande de situações que ajudaram a criar e evoluir todos os dias a maneira que trabalhamos."
+  },
+  "middle": {
+    "title": "Trabalhamos com ideias",
+    "desc-1": "O Idopter Labs. incentiva a colaboração e a criatividade para desenvolver ideias e parcerias, gerando produtos e serviços incríveis. O ambiente colaborativo soma competências e conhecimentos distintos para geração de produtos e serviços melhores e por isso o Idopter Labs. incentiva o co-working dando suporte a novas ideias, projetos e empreendedores.",
+    "desc-2": "Somos contra o abandono das boas idéias",
+    "desc-3": ", então se você tem uma boa idéia e acredita que ela fará a diferença nos procure!",
+    "why-hire-us": "Por que nos contratar?"
+  },
+  "clients": {
+    "title": "Parceiros e Clientes"
+  },
+  "team": {
+    "title": "Time pequeno, grandes resultados",
+    "dev-product": "Desenvolvimento de Produtos",
+    "dev-product-description": "Temos anos de experiência no desenvolvimento de produtos e experimentando diversas técnicas para ser cada dia mais assertivo no processo para colocá-los no mercado, sempre trabalhando em conjunto com o cliente e compartilhando as experiências de inúmeros outros produtos desenvolvidos.",
+    "rescue": "Resgate de Projetos",
+    "rescue-description": "A experiência no desenvolvimento de projetos nos ensinou muito sobre estratégias e técnicas diversas para ter um time focado, eficiente e pronto para ajudar a alcançar os seus objetivos mesmo em cenários não muito confortáveis como em projetos em atraso, desfalques inesperados no time ou em outros cenários mais complexos.",
+    "support": "Suporte Especializado",
+    "support-description": "A experimentação e o aprendizado constantes nos trouxe um know-how grande com inúmeras experiências e habilidades adquiridas através do uso de técnicas, tecnologias, metodologias, entre outros conhecimentos importantes para a formação de um time eficaz e focado na resolução de problemas.",
+    "our-team": "Nosso Time",
+    "founders": "Idealizadores",
+    "how-can-we-help-you": "Como podemos ajudá-lo?",
+    "we-will-help": "Trabalhamos para criar as melhores soluções para os nossos clientes. Conte-nos mais sobre a sua ideia."
+  },
+  "form": {
+    "project-name": "Qual a sua empresa ou o nome do projeto?",
+    "your-name": "Qual o seu nome?",
+    "your-email": "Qual o seu email?",
+    "your-phone": "Qual o seu telefone?",
+    "how-can-we-help": "Como podemos te ajudar?",
+    "your-budget": "Qual o seu orçamento?",
+    "how-did-you-find-us": "Como você nos encontrou?",
+    "send": "Enviar",
+    "footer-message": "Somos contra o abondono das boas ideias."
+  }
+}

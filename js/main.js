@@ -5,8 +5,17 @@
 //
 
 function main() {
-  (function() {
+  (function () {
     "use strict";
+
+    // Redirects to english if default language is not portuguese
+    const currentLocation = window.location.href;
+    const lang = navigator.languages
+      ? navigator.languages[0]
+      : navigator.language || navigator.userLanguage;
+    if (!lang.match(/pt/i) && !currentLocation.match(/en/i)) {
+      window.location.replace(window.location.href + "en");
+    }
 
     /*====================================
     Main Navigation Stick to Top when Scroll
@@ -21,13 +30,13 @@ function main() {
       }
     }
 
-    $(function() {
+    $(function () {
       $(window).scroll(sticky_relocate);
       sticky_relocate();
     });
 
-    $(function() {
-      $("a[href*=#]:not([href=#])").click(function() {
+    $(function () {
+      $("a[href*=#]:not([href=#])").click(function () {
         if (
           location.pathname.replace(/^\//, "") ==
             this.pathname.replace(/^\//, "") &&
@@ -40,7 +49,7 @@ function main() {
           if (target.length) {
             $("html,body").animate(
               {
-                scrollTop: target.offset().top - 70
+                scrollTop: target.offset().top - 70,
               },
               1000
             );
@@ -50,7 +59,7 @@ function main() {
       });
     });
 
-    $("form#contact").on("submit", function(e) {
+    $("form#contact").on("submit", function (e) {
       e.preventDefault();
 
       var button = $("button", this);
@@ -58,7 +67,7 @@ function main() {
       var content = "";
       var form = this;
 
-      $("form#contact input, textarea").each(function(index, element) {
+      $("form#contact input, textarea").each(function (index, element) {
         formData[element.name] = $(element).val();
         content +=
           "<li><strong>" +
@@ -71,7 +80,7 @@ function main() {
       var mailData = {
         recipient: "contato@idopterlabs.com.br",
         subject: "Novo contato de: " + formData.email,
-        content_html: "<ul>" + content + "</ul>"
+        content_html: "<ul>" + content + "</ul>",
       };
 
       button.attr("disabled", "disabled");
@@ -81,19 +90,19 @@ function main() {
         url: "http://api.idopterlabs.com.br/mailme/notify/now",
         type: "POST",
         data: mailData,
-        contentType: "application/x-www-form-urlencoded"
+        contentType: "application/x-www-form-urlencoded",
       })
-        .done(function(data) {
+        .done(function (data) {
           form.reset();
           button.html("Obrigado! :)");
         })
-        .fail(function(response, status) {
+        .fail(function (response, status) {
           button.html("Verifique os dados! :|");
         })
-        .always(function(data) {
+        .always(function (data) {
           button.removeAttr("disabled");
 
-          setTimeout(function() {
+          setTimeout(function () {
             button.html("Enviar");
           }, 3000);
         });

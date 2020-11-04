@@ -1,0 +1,22 @@
+{
+  "name": "idopter-site",
+  "version": "1.0.0",
+  "description": "Idopter Labs page",
+  "main": "index.js",
+  "scripts": {
+    "translate": "static-i18n -l ptBR -i ptBR -i en src -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idopterlabs/idopter-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idopterlabs/idopter-site/issues"
+  },
+  "homepage": "https://github.com/idopterlabs/idopter-site#readme",
+  "dependencies": {
+    "static-i18n": "^0.2.8"
+  }
+}
