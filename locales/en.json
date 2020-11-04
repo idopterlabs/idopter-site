@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "title": "Idopter Labs | Development of Digital Products",
+    "description": "Development of custom web and mobile applications",
+    "keywords": "software, product, produto, technology, tecnologia, development, desenvolvimento, agile, agilidade, consultoria, consulting, site, landing page, sistemas, ruby, rails, elixir, phoenix, javascript, react, react native"
+  },
   "menu": {
     "services": "Services",
     "testimonials": "Testimonials",

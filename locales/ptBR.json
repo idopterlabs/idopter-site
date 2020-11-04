@@ -1,4 +1,9 @@
 {
+  "meta": {
+    "title": "Idopter Labs | Desenvolvimento de Produtos Tecnológicos",
+    "description": "Projetamos e desenvolvemos soluções usando técnicas e tecnologias apropriadas para cada situação. Estudamos cuidadosamente cada problema buscando sempre a melhor maneira de alcançar os resultados esperados.",
+    "keywords": "software, product, produto, technology, tecnologia, development, desenvolvimento, agile, agilidade, consultoria, consulting, site, landing page, sistemas, ruby, rails, elixir, phoenix, javascript, react, react native"
+  },
   "menu": {
     "services": "Serviços",
     "testimonials": "Depoimentos",
