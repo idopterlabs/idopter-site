@@ -110,3 +110,7 @@ function main() {
   })();
 }
 main();
+
+$(window).on('load', function() {
+  $('#webinarModal').modal('show');
+});
